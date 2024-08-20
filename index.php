@@ -1,22 +1,22 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
+    $conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
 
-if (isset($_POST['send'])) {
-    $name = mysqli_real_escape_string($conn, $_POST['name']);
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $number = mysqli_real_escape_string($conn, $_POST['number']);
-    $msg = mysqli_real_escape_string($conn, $_POST['message']);
+    if (isset($_POST['send'])) {
+        $name = mysqli_real_escape_string($conn, $_POST['name']);
+        $email = mysqli_real_escape_string($conn, $_POST['email']);
+        $number = mysqli_real_escape_string($conn, $_POST['number']);
+        $msg = mysqli_real_escape_string($conn, $_POST['message']);
 
-    $select_message = mysqli_query($conn, "SELECT * FROM `contact_form` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die('query failed');
+        $select_message = mysqli_query($conn, "SELECT * FROM `contact_form` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die('query failed');
 
-    if (mysqli_num_rows($select_message) > 0) {
-        $messagePrompt[] = 'Message Sent Already';
-    } else {
-        mysqli_query($conn, "INSERT INTO `contact_form`(name, email, number, message) VALUES('$name', '$email', '$number', '$msg')") or die('Query Failed');
-        $messagePrompt[] = 'Message Sent Successfully';
+        if (mysqli_num_rows($select_message) > 0) {
+            $messagePrompt[] = 'Message Sent Already';
+        } else {
+            mysqli_query($conn, "INSERT INTO `contact_form`(name, email, number, message) VALUES('$name', '$email', '$number', '$msg')") or die('Query Failed');
+            $messagePrompt[] = 'Message Sent Successfully';
+        }
     }
-}
 
 ?>
 
@@ -33,21 +33,18 @@ if (isset($_POST['send'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
-
 <?php
-
-if (isset($messagePrompt)) {
-    foreach ($messagePrompt as $message) {
-        echo '
-        <div class="message" data-aos="zoom-out">
-            <span>'.$message.'</span>
-            <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
-        </div>
-        ';
+    if (isset($messagePrompt)) {
+        foreach ($messagePrompt as $message) {
+            echo '
+            <div class="message" data-aos="zoom-out">
+                <span>'.$message.'</span>
+                <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+            </div>
+            ';
+        }
     }
-}
 ?>
-
     <!-- Header Part -->
     <header class="header">
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -75,22 +72,22 @@ if (isset($messagePrompt)) {
         <div class="content">
             <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
             <span data-aos="fade-up">Front-End Developer</span>
-            <p data-aos="fade-up">Nag-aaral sa LU bilang BSIT tapos 2nd Year na. May balak pa sanang magtransfer sa PHINMA Rizal College of Laguna kase maangas uniform duon kaso ayaw ko kase ayaw ko lang. O bat mo pa binabasa? G@g0 k b?</p>
-            <a data-aos="fade-up" href="#about" class="btn">Bat ka nandito? Krass mo ko noh?</a>
+            <p data-aos="fade-up">Nag-aaral sa LU bilang BSIT tapos 2nd Year na. May balak pa sanang magtransfer sa PHINMA Rizal College of Laguna kase maangas uniform duon kaso ayaw ko kase ayaw ko lang.</p>
+            <a data-aos="fade-up" href="#about" class="btn">About Me</a>
         </div>
     </section>
     <!-- About Section -->
     <section class="about" id="about">
         <h1 class="heading" data-aos="fade-up"> <span>About Me</span> </h1>
         <div class="biography">
-            <p data-aos="fade-up">Pinanganak sa bahay (sayang hindi sa ospital pinanganak para premium yung dating). Dadagdagan pa yan. Gago ka ba? Para kang si kuan e. Saka krass ko po yung BS ata yon o BA Psych?? basta gondo ni ate gorl, edidon't u gagoing me?</p>
+            <p data-aos="fade-up">Pinanganak sa bahay (sayang hindi sa ospital pinanganak para premium yung dating). Dadagdagan pa yan. Saka krass ko po yung BS ata yon o BA Psych?? basta gondo ni ate gorl, edi don't u gagoing me?</p>
             <div class="bio">
                 <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas </h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span> giomjds@gmail.com </h3>
                 <h3 data-aos="zoom-in"> <span>Address: </span> Manila, Philippines </h3>
                 <h3 data-aos="zoom-in"> <span>Phone: </span> +63 920 212 9617 </h3>
-                <h3 data-aos="zoom-in"> <span>Age: </span> 21 y/o </h3>
-                <h3 data-aos="zoom-in"> <span>Experience: </span> 2 yrs Student Exp </h3>
+                <h3 data-aos="zoom-in"> <span>Age: </span> 21 years old </h3>
+                <h3 data-aos="zoom-in"> <span>Experience: </span> 2nd Year BSIT-SD Student @ Laguna University </h3>
             </div>
             <a href="#" class="btn" data-aos="fade-up">Download CV</a>
         </div>
@@ -101,7 +98,11 @@ if (isset($messagePrompt)) {
                 <div class="bar" data-aos="fade-right"> <h3><span>CSS</span> <span>79%</span></h3> </div>
                 <div class="bar" data-aos="fade-left"> <h3><span>JavaScript</span> <span>66%</span></h3> </div>
                 <div class="bar" data-aos="fade-right"> <h3><span>SQL</span> <span>61%</span></h3> </div>
-                <div class="bar" data-aos="fade-right"> <h3><span>PHP</span> <span>74%</span></h3> </div>
+                <div class="bar" data-aos="fade-left"> <h3><span>PHP</span> <span>70%</span></h3> </div>
+                <div class="bar" data-aos="fade-right"> <h3><span>C</span> <span>78%</span></h3> </div>
+                <div class="bar" data-aos="fade-left"> <h3><span>C++</span> <span>93%</span></h3> </div>
+                <div class="bar" data-aos="fade-right"> <h3><span>C#</span> <span>67%</span></h3> </div>
+                <div class="bar" data-aos="fade-left"> <h3><span>Visual Basic .NET</span> <span>74%</span></h3> </div>
                 <div class="bar" data-aos="fade-right"> <h3><span>GitHub</span> <span>76%</span></h3> </div>
             </div>
         </div>
@@ -183,7 +184,6 @@ if (isset($messagePrompt)) {
             </div>
         </div>
     </section>
-
     <!-- Portfolio Section -->
     <section class="portfolio" id="portfolio">
         <h1 class="heading" data-aos="fade-up"> <span>Portfolio</span> </h1>
@@ -220,7 +220,6 @@ if (isset($messagePrompt)) {
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h1 class="heading" data-aos="fade-up"> <span>Contact Me</span> </h1>
@@ -251,19 +250,15 @@ if (isset($messagePrompt)) {
             </div>
         </div>
     </section>
-
     <div class="credit"> &copy;: <?php echo date('Y'); ?> by <span>Gio Majadas</span></div>
-
     <script src="script.js"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
+    <!-- AOS Script -->
     <script>
         AOS.init({
             duration: 800,
             delay: 300
         });
     </script>
-
 </body>
 </html>

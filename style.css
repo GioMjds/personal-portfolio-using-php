@@ -272,26 +272,52 @@ section {
 }
 
 .about .skills .progress .bar:nth-child(1) h3 {
+    /* HTML skill bar */
     width: 87%;
 }
 
 .about .skills .progress .bar:nth-child(2) h3 {
+    /* CSS skill bar */
     width: 79%;
 }
 
 .about .skills .progress .bar:nth-child(3) h3 {
+    /* JavaScript skill bar */
     width: 66%;
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
+    /* SQL skill bar */
     width: 61%;
 }
 
 .about .skills .progress .bar:nth-child(5) h3 {
-    width: 74%;
+    /* PHP skill bar */
+    width: 70%;
 }
 
 .about .skills .progress .bar:nth-child(6) h3 {
+    /* C skill bar */
+    width: 78%;
+}
+
+.about .skills .progress .bar:nth-child(7) h3 {
+    /* C++ skill bar */
+    width: 93%;
+}
+
+.about .skills .progress .bar:nth-child(8) h3 {
+    /* C# skill bar */
+    width: 67%;
+}
+
+.about .skills .progress .bar:nth-child(9) h3 {
+    /* Visual Basic .NET skill bar */
+    width: 74%;
+}
+
+.about .skills .progress .bar:nth-child(10) h3 {
+    /* GitHub skill bar */
     width: 76%;
 }
 
@@ -388,7 +414,6 @@ section {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    cursor: pointer;
 }
 
 .portfolio .box-container .box h3 {
