@@ -31,6 +31,7 @@
     <!-- Custom css file link -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
 <?php
@@ -71,7 +72,7 @@
         </div>
         <div class="content">
             <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
-            <span data-aos="fade-up">Front-End Developer</span>
+            <span data-aos="fade-up">2nd Year BSIT-SD Student</span>
             <p data-aos="fade-up">Nag-aaral sa LU bilang BSIT tapos 2nd Year na. May balak pa sanang magtransfer sa PHINMA Rizal College of Laguna kase maangas uniform duon kaso ayaw ko kase ayaw ko lang.</p>
             <a data-aos="fade-up" href="#about" class="btn">About Me</a>
         </div>
