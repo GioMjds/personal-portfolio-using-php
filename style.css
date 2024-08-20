@@ -141,6 +141,19 @@ section {
     transition: background-color 0.2s ease-in-out;
 }
 
+.navbar a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a span {
+    margin-right: 10px;
+}
+
+.navbar a span.fa-solid {
+    font-size: 18px;
+}
+
 .header .navbar a.active,
 .header .navbar a:hover {
     background-color: var(--yellow);

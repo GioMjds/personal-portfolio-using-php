@@ -51,11 +51,11 @@
         <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#home" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="active"><span class="fa-solid fa-house"></span> Home</a>
+            <a href="#about"><span class="fa-solid fa-address-card"></span> About</a>
+            <a href="#services"><span class="fa-solid fa-sliders"></span> Services</a>
+            <a href="#portfolio"><span class="fa-solid fa-mountain-sun"></span> Portfolio</a>
+            <a href="#contact"><span class="fa-solid fa-headset"></span> Contact</a>
         </nav>
         <div class="follow">
             <a href="https://www.facebook.com/Mimic.IGN" class="fab fa-facebook-f" target="_blank"></a>
@@ -81,7 +81,7 @@
     <section class="about" id="about">
         <h1 class="heading" data-aos="fade-up"> <span>About Me</span> </h1>
         <div class="biography">
-            <p data-aos="fade-up">Pinanganak sa bahay (sayang hindi sa ospital pinanganak para premium yung dating). Dadagdagan pa yan. Saka krass ko po yung BS ata yon o BA Psych?? basta gondo ni ate gorl, edi don't u gagoing me?</p>
+            <p data-aos="fade-up">I am a 2nd year student of Laguna University with the course of Bachelor of Science in Information Technology. Enthusiast of technology, coding, and problem-solving. In my scholastic path, I have built a strong foundation in programming and coding ability, analytical ability, problem-solving, logical reasoning, and systems analysis. I like project work that can challenge me to think critically and creatively: writing software, securing network infrastructure, or exploring new and sophisticated technologies like artificial intelligence or cloud computing. <br><br>I am a proactive learner who seeks to keep himself abreast of the latest technological developments and industry trends, apart from my technical skills. Among the main objectives is the capability to further learn IT skills and bridge them into practice with a view to developing some really outstanding and effective solutions.</p>
             <div class="bio">
                 <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas </h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span> giomjds@gmail.com </h3>
@@ -90,7 +90,7 @@
                 <h3 data-aos="zoom-in"> <span>Age: </span> 21 years old </h3>
                 <h3 data-aos="zoom-in"> <span>Experience: </span> 2nd Year BSIT-SD Student @ Laguna University </h3>
             </div>
-            <a href="#" class="btn" data-aos="fade-up">Download CV</a>
+            <a href="Gio Majadas (Resume).pdf" class="btn" data-aos="fade-up">Download CV</a>
         </div>
         <div class="skills" data-aos="fade-up">
             <h1 class="heading"> <span>Skills</span> </h1>
@@ -251,7 +251,7 @@
             </div>
         </div>
     </section>
-    <div class="credit"> &copy;: <?php echo date('Y'); ?> by <span>Gio Majadas</span></div>
+    <div class="credit"> &copy; <?php echo date('Y'); ?> by <span>Gio Majadas</span></div>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!-- AOS Script -->
