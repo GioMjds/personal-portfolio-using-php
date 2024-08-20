@@ -284,6 +284,14 @@ section {
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
+    width: 61%;
+}
+
+.about .skills .progress .bar:nth-child(5) h3 {
+    width: 74%;
+}
+
+.about .skills .progress .bar:nth-child(6) h3 {
     width: 76%;
 }
 

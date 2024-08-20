@@ -67,11 +67,10 @@ if (isset($messagePrompt)) {
             <a href="https://github.com/GioMjds" class="fab fa-github" target="_blank"></a>
         </div>
     </header>
-
     <!-- Home Section -->
     <section class="home" id="home">
         <div class="image" data-aos="fade-right">
-            <img src="images/mimic4.jpg" alt="">
+            <img src="images/mimic4.jpg" alt="Gio Majadas">
         </div>
         <div class="content">
             <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
@@ -80,7 +79,6 @@ if (isset($messagePrompt)) {
             <a data-aos="fade-up" href="#about" class="btn">Bat ka nandito? Krass mo ko noh?</a>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="about" id="about">
         <h1 class="heading" data-aos="fade-up"> <span>About Me</span> </h1>
@@ -92,9 +90,9 @@ if (isset($messagePrompt)) {
                 <h3 data-aos="zoom-in"> <span>Address: </span> Manila, Philippines </h3>
                 <h3 data-aos="zoom-in"> <span>Phone: </span> +63 920 212 9617 </h3>
                 <h3 data-aos="zoom-in"> <span>Age: </span> 21 y/o </h3>
-                <h3 data-aos="zoom-in"> <span>Experience: </span> bergin pa po </h3>
+                <h3 data-aos="zoom-in"> <span>Experience: </span> 2 yrs Student Exp </h3>
             </div>
-            <a href="#" class="btn" data-aos="fade-up">Download mo CV ko boi, maangas yn</a>
+            <a href="#" class="btn" data-aos="fade-up">Download CV</a>
         </div>
         <div class="skills" data-aos="fade-up">
             <h1 class="heading"> <span>Skills</span> </h1>
@@ -102,7 +100,9 @@ if (isset($messagePrompt)) {
                 <div class="bar" data-aos="fade-left"> <h3><span>HTML</span> <span>87%</span></h3> </div>
                 <div class="bar" data-aos="fade-right"> <h3><span>CSS</span> <span>79%</span></h3> </div>
                 <div class="bar" data-aos="fade-left"> <h3><span>JavaScript</span> <span>66%</span></h3> </div>
-                <div class="bar" data-aos="fade-right"> <h3><span>Python</span> <span>76%</span></h3> </div>
+                <div class="bar" data-aos="fade-right"> <h3><span>SQL</span> <span>61%</span></h3> </div>
+                <div class="bar" data-aos="fade-right"> <h3><span>PHP</span> <span>74%</span></h3> </div>
+                <div class="bar" data-aos="fade-right"> <h3><span>GitHub</span> <span>76%</span></h3> </div>
             </div>
         </div>
         <div class="edu-exp">
@@ -147,7 +147,6 @@ if (isset($messagePrompt)) {
             </div>
         </div>
     </section>
-
     <!-- Services Section -->
     <section class="services" id="services">
         <h1 class="heading" data-aos="fade-up"> <span>Services</span> </h1>
