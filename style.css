@@ -71,6 +71,23 @@ section {
     border-bottom: var(--border-bold);
 }
 
+.message {
+    position: sticky;
+    top: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.message i {
+    cursor: pointer;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -320,13 +337,11 @@ section {
 .services .box-container .box {
     padding: 3.2rem;
     border: var(--border-light);
-    transition: background-color 0.3s ease-in-out;
 }
 
 .services .box-container .box i {
     font-size: 4rem;
     margin-bottom: 2rem;
-    transition: background-color 0.3s ease-in-out;
 }
 
 .services .box-container .box h3 {
@@ -340,7 +355,6 @@ section {
 .services .box-container .box p {
     line-height: 2;
     font-size: 1.7rem;
-    transition: background-color 0.3s ease-in-out;
 }
 
 .services .box-container .box:hover {
@@ -366,6 +380,7 @@ section {
     height: 30rem;
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .portfolio .box-container .box h3 {
@@ -415,6 +430,52 @@ section {
     width: 49%;
 }
 
+.contact .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.contact .box-container .box {
+    padding: 3rem 2rem;
+    border: var(--border-light);
+    background-color: var(--light-bg);
+}
+
+.contact .box-container .box i {
+    font-size: 2rem;
+    height: 7rem;
+    width: 7rem;
+    line-height: 7rem;
+    color: var(--white);
+    background-color: var(--black);
+    margin-bottom: .5rem;
+}
+
+.contact .box-container .box h3 {
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+.contact .box-container .box p {
+    font-size: 1.7rem;
+    text-transform: none;
+}
+
+.credit {
+    text-align: center;
+    background-color: var(--black);
+    padding: 3rem;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.credit span {
+    color: var(--yellow);
+}
+
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -443,5 +504,8 @@ section {
     }
     .about .biography .bio h3 {
         font-size: 2rem;
-    } 
+    }
+    .contact form .flex .box {
+        width: 100%;
+    }
 }
