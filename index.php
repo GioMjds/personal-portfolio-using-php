@@ -83,9 +83,13 @@
     <section class="about" id="about">
         <h1 class="heading" data-aos="fade-up"> <span>About Me</span> </h1>
         <div class="biography">
-            <p data-aos="fade-up">I am a 2nd year student pursuing a Bachelor of Science in Information Technology at Laguna University. Interests include technology, coding, and problem-solving. From the academic journey so far, interests I have acquired in the ability to solve problems, logical reasoning, analysis in systems, programming and coding, and analytical ability. I enjoy working on projects that require both critical and creative thinking, like in developing software, protection of network infrastructure, or explorations of the newest technologies in the area of cloud computing and artificial intelligence.</p>
+            <p data-aos="fade-up">Hello! I'm Gio Majadas, an IT student particularly interested in making innovations and pontifications about technology. I am currently finishing my degree in Bachelor of Science in Information Technology at Laguna University.</p>
+            <p data-aos="fade-up">I have a strong background in database administration, UI/UX design, and frontend development. My interest in how things work inside technology started with what applications and web infrastructure are really made of. With time, I managed to build upon these skills, learning HTML, CSS, JavaScript, and PHP, among others in programming languages, inclusive of Python, C, C++, C#, VB.NET, and SQL.</p>
+            <p data-aos="fade-up">Along with my technical experience, I am also innately inquisitive and able to solve problems—a lifelong learner. I always yearn for improvement in all I do, whether it's creating an aesthetically appealing application online, network protection, or radical problem debugging.</p>
+            <p data-aos="fade-up">As rarely as I am not immersed with code, when not working, you would catch me studying at will or from time to time indulging in online games, having entirely geared my effort toward IT sector development.</p>
+            <p data-aos="fade-up"> Thanks a lot for visiting. You can review my works as you please and feel free to reach out if you want to collaborate or discuss anything around this digital world.</p>
             <div class="bio">
-                <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas </h3>
+                <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas <i class="fa-solid fa-mars"></i></h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span> giomjds@gmail.com </h3>
                 <h3 data-aos="zoom-in"> <span>Address: </span> Manila, Philippines </h3>
                 <h3 data-aos="zoom-in"> <span>Phone: </span> +63 920 212 9617 </h3>

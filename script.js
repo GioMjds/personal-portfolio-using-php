@@ -11,6 +11,12 @@ menu.onclick = () => {
     document.body.classList.toggle('active');
 }
 
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'q') {
+        document.getElementById('menu-btn').click();
+    }
+});
+
 window.onscroll = () => {
     if (window.innerWidth < 991) {
         menu.classList.remove('fa-times');
