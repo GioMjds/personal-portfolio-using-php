@@ -1,5 +1,4 @@
 <?php
-
     $conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
 
     if (isset($_POST['send'])) {
@@ -16,8 +15,11 @@
             mysqli_query($conn, "INSERT INTO `contact_form`(name, email, number, message) VALUES('$name', '$email', '$number', '$msg')") or die('Query Failed');
             $messagePrompt[] = 'Message Sent Successfully';
         }
-    }
 
+        unset($_POST['send']);
+        
+        echo '<script>window.history.replaceState({}, "", window.location.href);</script>';
+    }
 ?>
 
 <!DOCTYPE html>
@@ -224,7 +226,7 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h1 class="heading" data-aos="fade-up"> <span>Contact Me</span> </h1>
-        <form action="" method="post">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div class="flex">
                 <input data-aos="fade-right" type="text" name="name" placeholder="Enter Your Name" class="box" required>
                 <input data-aos="fade-left" type="email" name="email" placeholder="Enter Your Email" class="box" required>
