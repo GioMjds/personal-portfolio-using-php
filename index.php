@@ -1,3 +1,5 @@
+<!-- Replace the name of your own database and it's table contents like the name, email, number, and the message -->
+
 <?php
     $conn = mysqli_connect('localhost', 'root', '', 'contact_db') or die('connection failed');
 
@@ -87,7 +89,6 @@
             <p data-aos="fade-up">I have a strong background in database administration, UI/UX design, and frontend development. My interest in how things work inside technology started with what applications and web infrastructure are really made of. With time, I managed to build upon these skills, learning HTML, CSS, JavaScript, and PHP, among others in programming languages, inclusive of Python, C, C++, C#, VB.NET, and SQL.</p>
             <p data-aos="fade-up">Along with my technical experience, I am also innately inquisitive and able to solve problems—a lifelong learner. I always yearn for improvement in all I do, whether it's creating an aesthetically appealing application online, network protection, or radical problem debugging.</p>
             <p data-aos="fade-up">As rarely as I am not immersed with code, when not working, you would catch me studying at will or from time to time indulging in online games, having entirely geared my effort toward IT sector development.</p>
-            <p data-aos="fade-up"> Thanks a lot for visiting. You can review my works as you please and feel free to reach out if you want to collaborate or discuss anything around this digital world.</p>
             <div class="bio">
                 <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas <i class="fa-solid fa-mars"></i></h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span> giomjds@gmail.com </h3>
