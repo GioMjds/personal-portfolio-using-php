@@ -54,7 +54,7 @@
             <a href="#home" class="active"><span class="fa-solid fa-house"></span> Home</a>
             <a href="#about"><span class="fa-solid fa-address-card"></span> About</a>
             <a href="#services"><span class="fa-solid fa-sliders"></span> Services</a>
-            <a href="#portfolio"><span class="fa-solid fa-mountain-sun"></span> Portfolio</a>
+            <a href="#portfolio"><span class="fa-solid fa-mountain-sun"></span> Projects</a>
             <a href="#contact"><span class="fa-solid fa-headset"></span> Contact</a>
         </nav>
         <div class="follow">
@@ -155,39 +155,39 @@
         <div class="box-container">
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-code"></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <h3>Front-End Development</h3>
+                <p>Building responsive, interactive websites using HTML, CSS, and JavaScript, and popular frameworks like React or Angular.</p>
             </div>
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-paint-brush"></i>
                 <h3>UI/UX Designer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <p>Crafting intuitive and visually stunning interfaces that simplify complex interactions and elevate brand identities.</p>
             </div>
             <div class="box" data-aos="zoom-in">
                 <i class="fab fa-github"></i>
                 <h3>Git & GitHub</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <p>Streamlining development workflows and ensuring seamless collaboration through expert Git and GitHub management.</p>
             </div>
             <div class="box" data-aos="zoom-in">
-                <i class="fas fa-chart-line"></i>
-                <h3>Data Analyst</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Designing, implementing, and optimizing high-performance databases that ensure data integrity, security, and scalability.</p>
             </div>
             <div class="box" data-aos="zoom-in">
                 <i class="fas fa-bullhorn"></i>
                 <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <p>Developing and executing targeted digital marketing strategies that drive brand awareness, engagement, and conversions.</p>
             </div>
             <div class="box" data-aos="zoom-in">
-                <i class="fab fa-wordpress"></i>
-                <h3>Wordpress</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vel obcaecati voluptatibus nam, laboriosam est quis delectus.</p>
+                <i class="fas fa-server"></i>
+                <h3>Server-side Development</h3>
+                <p>Designing and implementing robust, scalable, and secure server-side architectures that power fast and reliable web applications.</p>
             </div>
         </div>
     </section>
     <!-- Portfolio Section -->
     <section class="portfolio" id="portfolio">
-        <h1 class="heading" data-aos="fade-up"> <span>Portfolio</span> </h1>
+        <h1 class="heading" data-aos="fade-up"> <span>Projects</span> </h1>
         <div class="box-container">
             <div class="box" data-aos="zoom-in">
                 <img src="images/a1.jpg" alt="Personal Portfolio">
