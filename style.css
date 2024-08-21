@@ -112,7 +112,9 @@ section {
     border-right: var(--border-bold);
     width: 35rem;
     padding: 3rem 2rem;
-    /* padding-bottom: 9rem; */
+    z-index: 1000;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -126,7 +128,7 @@ section {
     text-transform: uppercase;
     border-bottom: var(--border-bold);
     font-weight: bolder;
-    font-size: 4.5rem;
+    font-size: 3.9rem;
 }
 
 .header .navbar {

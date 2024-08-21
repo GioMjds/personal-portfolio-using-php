@@ -51,7 +51,7 @@
     <!-- Header Part -->
     <header class="header">
         <div id="menu-btn" class="fas fa-bars"></div>
-        <a href="#home" class="logo">Portfolio</a>
+        <a href="#home" class="logo">Gio Majadas</a>
         <nav class="navbar">
             <a href="#home" class="active"><span class="fa-solid fa-house"></span> Home</a>
             <a href="#about"><span class="fa-solid fa-address-card"></span> About</a>
@@ -75,7 +75,7 @@
         <div class="content">
             <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
             <span data-aos="fade-up">2nd Year BSIT-SD Student</span>
-            <p data-aos="fade-up">Nag-aaral sa LU bilang BSIT tapos 2nd Year na. May balak pa sanang magtransfer sa PHINMA Rizal College of Laguna kase maangas uniform duon kaso ayaw ko kase ayaw ko lang.</p>
+            <p data-aos="fade-up">A 2nd Year BS Information Technology student striving an expertise and experiences in the field of IT</p>
             <a data-aos="fade-up" href="#about" class="btn">About Me</a>
         </div>
     </section>
@@ -138,12 +138,12 @@
                 <div class="box-container">
                     <h3 class="title" data-aos="fade-right">Experience</h3>
                     <div class="box" data-aos="fade-left">
-                        <span>( 2019 - 2020 )</span>
+                        <span>( 2023 - Current )</span>
                         <h3>Teaching Coding / Programming Basics</h3>
                         <p>In this position, I planned individual lessons and provided breakdowns of tricky subjects while adjusting teaching methods according to different learning styles as a tutor for the basics of information technology with a focus on coding and programming. This work has improved my ability to explain technical concepts as simply and concisely as possible and is now being used in IT environments when explaining technical information to clients, colleagues, and end-users. Additionally, tutoring has provided a foundation for augmenting my patience and empathy, and the two now exist simultaneously when working to assist others with technology issues.</p>
                     </div>
                     <div class="box" data-aos="fade-right">
-                        <span>( 2020 - 2021 )</span>
+                        <span>( 2023 - Current )</span>
                         <h3>Leadership Roles</h3>
                         <p>I have been able to undertake and execute such activities and projects in my leadership role in a tech club. This improved my ability to delegate tasks and make sure they were done on time and through effective planning. Furthermore, I now have experience with leading and motivating a group of colleagues in a way that stimulates creativity and teamwork. Project management and team leadership are inbuilt parts of the delivery of successful technology solutions in the IT industry, for which these skills become quite essential.</p>
                     </div>
@@ -258,7 +258,7 @@
             </div>
         </div>
     </section>
-    <div class="credit"> &copy; <?php echo date('Y'); ?> by <span>Gio Majadas</span></div>
+    <div class="credit"> &copy; <?php echo date('Y'); ?>    <span>Gio Majadas</span></div>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!-- AOS Script -->
