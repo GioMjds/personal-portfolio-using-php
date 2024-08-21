@@ -335,13 +335,13 @@ section {
 }
 
 .about .edu-exp .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
 }
 
 .about .edu-exp .row .box-container {
-    flex: 1 1 40rem;
+    grid-column: 1;
 }
 
 .about .edu-exp .row .box-container .title {

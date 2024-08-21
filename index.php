@@ -83,7 +83,7 @@
     <section class="about" id="about">
         <h1 class="heading" data-aos="fade-up"> <span>About Me</span> </h1>
         <div class="biography">
-            <p data-aos="fade-up">I am a 2nd year student of Laguna University with the course of Bachelor of Science in Information Technology. Enthusiast of technology, coding, and problem-solving. In my scholastic path, I have built a strong foundation in programming and coding ability, analytical ability, problem-solving, logical reasoning, and systems analysis. I like project work that can challenge me to think critically and creatively: writing software, securing network infrastructure, or exploring new and sophisticated technologies like artificial intelligence or cloud computing. <br><br>I am a proactive learner who seeks to keep himself abreast of the latest technological developments and industry trends, apart from my technical skills. Among the main objectives is the capability to further learn IT skills and bridge them into practice with a view to developing some really outstanding and effective solutions.</p>
+            <p data-aos="fade-up">I am a 2nd year student pursuing a Bachelor of Science in Information Technology at Laguna University. Interests include technology, coding, and problem-solving. From the academic journey so far, interests I have acquired in the ability to solve problems, logical reasoning, analysis in systems, programming and coding, and analytical ability. I enjoy working on projects that require both critical and creative thinking, like in developing software, protection of network infrastructure, or explorations of the newest technologies in the area of cloud computing and artificial intelligence.</p>
             <div class="bio">
                 <h3 data-aos="zoom-in"> <span>Name: </span> Gio Majadas </h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span> giomjds@gmail.com </h3>
@@ -113,39 +113,44 @@
             <h1 class="heading" data-aos="fade-up"> <span>Education & Experience</span> </h1>
             <div class="row">
                 <div class="box-container">
-                    <h3 class="title" data-aos="fade-right">Education</h3>
+                    <h3 class="title" data-aos="fade-left">Education</h3>
                     <div class="box" data-aos="fade-right">
-                        <span>( 2015 - 2019 )</span>
-                        <h3>Junior High School</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                        <span>Elementary ( 2010 - 2015 )</span>
+                        <h3>Dayap Elementary School - Annex</h3>
+                        <p>Elementary school life was a vivid combination of curiosity and adventure: every day, something new was learned. One learned starting from elementary physics and arithmetic principles to the first letter combinations in writing. Even in shared crayons and recess activities, friendships were initiated inside the four walls of a class. This is what I did those years through: focused on creating in myself a sense of wonder for everything that was unfolding around me and on mastering the basic abilities that would help me become successful.</p>
+                    </div>
+                    <div class="box" data-aos="fade-left">
+                        <span>Junior High School ( 2015 - 2019 )</span>
+                        <h3>Dayap National High School - Main</h3>
+                        <p>A greater amount of independence and self-discovery began with the move to junior high school. Innumerable amounts of time were used up by the opportunity to study a lot of new topics in depth, whether this was exploring technology on the one hand or delving into literature and history on the other. Another aspect was that social dynamics changed with the newly gained friendship and involvement in extracurricular activities. For the past, I have been forming my self-identity, learning about my interests and developed strengths, and setting a base for my future goals.</p>
                     </div>
                     <div class="box" data-aos="fade-right">
-                        <span>( 2019 - 2021 )</span>
-                        <h3>Senior High School</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                        <span>Senior High School ( 2019 - 2021 )</span>
+                        <h3>Luzonian School of Excellence in Science and Technology</h3>
+                        <p>Senior high school certainly turned out to be a real defining period. The emphasis on the development of intellect and the self grew. I began attending more advanced classes and technology groups while taking my future as an IT seriously. The pressure of doing well in studies was balanced with the exhilaration of discovering new opportunities that put me into the professional world, such as internships and projects. These, coupled with the enhancement of my technical skills, have been endowed with an umpteen number of lessons in tenacity, teamwork, and time management.</p>
                     </div>
-                    <div class="box" data-aos="fade-right">
-                        <span>( 2023 - Current )</span>
-                        <h3>College</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                    <div class="box" data-aos="fade-left">
+                        <span>College ( 2023 - Current )</span>
+                        <h3>Laguna University</h3>
+                        <p>The most memorable phase in my life is my undergraduate years, when centre stage was taken by information technology. They enrolled me in courses on programming, database administration, network security, and cloud computing to make me an expert in domains such as mine. Students gain necessary practical experience through internships, group projects, and hands-on laboratories within the teaching of how to tackle technical problems. Their involvement in tech clubs and participation in coding competitions helped in the enhancement of their technical skills, group work, communication, and degree of technological awareness. The aim at college was not to learn only the technical skills but to become a full, all-rounded IT professional equipped to handle all kinds of problems and challenges in the fast-moving industry.</p>
                     </div>
                 </div>
                 <div class="box-container">
-                    <h3 class="title" data-aos="fade-left">Experience</h3>
+                    <h3 class="title" data-aos="fade-right">Experience</h3>
                     <div class="box" data-aos="fade-left">
                         <span>( 2019 - 2020 )</span>
-                        <h3>Front-End Developer</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                        <h3>Teaching Coding / Programming Basics</h3>
+                        <p>In this position, I planned individual lessons and provided breakdowns of tricky subjects while adjusting teaching methods according to different learning styles as a tutor for the basics of information technology with a focus on coding and programming. This work has improved my ability to explain technical concepts as simply and concisely as possible and is now being used in IT environments when explaining technical information to clients, colleagues, and end-users. Additionally, tutoring has provided a foundation for augmenting my patience and empathy, and the two now exist simultaneously when working to assist others with technology issues.</p>
                     </div>
-                    <div class="box" data-aos="fade-left">
+                    <div class="box" data-aos="fade-right">
                         <span>( 2020 - 2021 )</span>
-                        <h3>Back-End Developer</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                        <h3>Leadership Roles</h3>
+                        <p>I have been able to undertake and execute such activities and projects in my leadership role in a tech club. This improved my ability to delegate tasks and make sure they were done on time and through effective planning. Furthermore, I now have experience with leading and motivating a group of colleagues in a way that stimulates creativity and teamwork. Project management and team leadership are inbuilt parts of the delivery of successful technology solutions in the IT industry, for which these skills become quite essential.</p>
                     </div>
                     <div class="box" data-aos="fade-left">
                         <span>( 2021 - 2022 )</span>
-                        <h3>Full-Stack Developer</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit hic vero nulla laudantium autem facere commodi voluptatibus inventore praesentium, id repudiandae eaque quis itaque eligendi velit.</p>
+                        <h3>Customer Service</h3>
+                        <p>In order to obtain an added skill in terms of tuning my communication and problem-solving skills when working as a customer service representative, I was very comprehensively equipped with how to handle people with different levels of technical expertise. My role was to help the clients in solving problems every day, that would in many ways involve diagnosing software and making technical answers as clear as possible. My job has enabled me to learn two major traits: patience and adaptability, both vital in handling IT technical challenges.</p>
                     </div>
                 </div>
             </div>
