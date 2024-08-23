@@ -17,9 +17,11 @@
             mysqli_query($conn, "INSERT INTO `contact_form`(name, email, number, message) VALUES('$name', '$email', '$number', '$msg')") or die('Query Failed');
             $messagePrompt[] = 'Message Sent Successfully';
         }
-
+        
+        // Fixing the 'Confirm Form Resubmission' problem in order to stop resending the contact messages in the databases when refreshed
         unset($_POST['send']);
         
+        // Every refresh goes to the home section
         echo '<script>window.history.replaceState({}, "", window.location.href);</script>';
     }
 
