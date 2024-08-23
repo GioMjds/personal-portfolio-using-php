@@ -17,6 +17,14 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+const message = document.querySelector('.message');
+
+if (message) {
+    setTimeout(() => {
+        message.remove();
+    }, 5000);
+}
+
 window.onscroll = () => {
     if (window.innerWidth < 991) {
         menu.classList.remove('fa-times');
