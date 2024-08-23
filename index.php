@@ -107,7 +107,9 @@
             <h1 class="heading"> <span>Skills</span> </h1>
             <div class="progress">
                 <?php foreach ($skills as $skill) {?>
-                    <div class="bar" data-aos="fade-left"> <h3><span> <?= $skill['name']?></span> <?= $skill['percentage'] ?>%</h3> </div>
+                    <div class="bar" data-aos="fade-left">
+                        <h3><span> <?= $skill['name']?></span> <?= $skill['percentage'] ?>%</h3>
+                    </div>
                 <?php }?>
             </div>
         </div>

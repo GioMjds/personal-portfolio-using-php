@@ -46,7 +46,7 @@ html {
 
 body {
     overflow: hidden;
-    transition: .2s linear !important;
+    transition: .2s linear;
 }
 
 body.active {
@@ -124,7 +124,7 @@ section {
     align-items: center;
     justify-content: space-between;
     flex-flow: column;
-    transition: .2s linear !important;
+    transition: .2s linear;
     text-align: center;
 }
 
@@ -169,7 +169,7 @@ section {
     font-size: 3.6rem;
     margin: 0 1rem;
     cursor: pointer;
-    transition: all 0.3s ease-in-out !important;
+    transition: 0.3s ease-in-out;
 }
 
 .header .follow a:hover {
@@ -306,13 +306,13 @@ section {
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
-    /* SQL skill bar */
-    width: 61%;
+    /* PHP skill bar */
+    width: 70%;
 }
 
 .about .skills .progress .bar:nth-child(5) h3 {
-    /* PHP skill bar */
-    width: 70%;
+    /* SQL skill bar */
+    width: 68%;
 }
 
 .about .skills .progress .bar:nth-child(6) h3 {
