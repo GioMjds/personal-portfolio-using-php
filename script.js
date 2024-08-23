@@ -13,7 +13,7 @@ menu.onclick = () => {
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'q') {
-        document.getElementById('menu-btn').click();
+        menu.click();
     }
 });
 
