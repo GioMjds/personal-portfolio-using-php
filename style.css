@@ -97,6 +97,7 @@ section {
     cursor: pointer;
     padding: 1rem 3rem;
     border: var(--border-light);
+    border-radius: 12px;
     font-size: 2rem;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -168,7 +169,7 @@ section {
     font-size: 3.6rem;
     margin: 0 1rem;
     cursor: pointer;
-    transition: 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
 }
 
 .header .follow a:hover {
@@ -230,8 +231,8 @@ section {
 
 .home .content p {
     font-size: 1.7rem;
-    line-height: 2;
-    padding: 1rem 0;
+    line-height: 1.4;
+    padding: 1rem 3em;
 }
 
 .about .biography p {
@@ -389,6 +390,7 @@ section {
 .services .box-container .box {
     padding: 3.2rem;
     border: var(--border-light);
+    border-radius: 3rem;
 }
 
 .services .box-container .box i {
@@ -402,23 +404,12 @@ section {
     padding: 1.5rem;
     background-color: var(--yellow);
     font-weight: normal;
+    border-radius: 2rem;
 }
 
 .services .box-container .box p {
     line-height: 2;
     font-size: 1.7rem;
-}
-
-.services .box-container .box:hover {
-    background-color: var(--black);
-}
-
-.services .box-container .box:hover i {
-    color: var(--white);
-}
-
-.services .box-container .box:hover p {
-    color: var(--white);
 }
 
 .portfolio .box-container {

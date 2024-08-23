@@ -82,7 +82,7 @@
             <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
             <span data-aos="fade-up">2nd Year BSIT-SD Student</span>
             <p data-aos="fade-up">A 2nd Year BS Information Technology student striving an expertise and experiences in the field of IT</p>
-            <a data-aos="fade-up" href="#about" class="btn">About Me</a>
+            <a data-aos="fade-up" href="#about" class="btn">See More</a>
         </div>
     </section>
     <!-- About Section -->
@@ -177,6 +177,7 @@
     <section class="portfolio" id="portfolio">
         <h1 class="heading" data-aos="fade-up"> <span>Projects</span> </h1>
         <div class="box-container">
+            <!-- This may vary for school purposes -->
             <div class="box" data-aos="zoom-in">
                 <img src="images/a1.jpg" alt="Personal Portfolio">
                 <h3>Personal Portfolio</h3>
