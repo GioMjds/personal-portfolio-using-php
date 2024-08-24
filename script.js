@@ -2,6 +2,20 @@ window.onload = () => {
     window.location.href = "#home";
 }
 
+// Setting the dark mode
+
+let btn = document.getElementById("btn");
+let btnText = document.getElementById("btnText");
+
+btn.onclick = () => {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        btnText.innerHTML = "Light Mode";
+    } else {
+        btnText.innerHTML = "Dark Mode";
+    }
+}
+
 const menu = document.querySelector("#menu-btn");
 const header = document.querySelector(".header");
 

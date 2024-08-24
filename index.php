@@ -65,6 +65,10 @@
             <a href="#services"><span class="fa-solid fa-sliders"></span> Services</a>
             <a href="#portfolio"><span class="fa-solid fa-mountain-sun"></span> Projects</a>
             <a href="#contact"><span class="fa-solid fa-headset"></span> Contact</a>
+            <div class="toggle-btn" id="btn">
+                <!-- <img src="images/dark-mode-toggle/moon.png" id="btnIcon"> -->
+                <span id="btnText">Dark Mode</span>
+            </div>
         </nav>
         <div class="follow">
             <a href="https://www.facebook.com/Mimic.IGN" class="fab fa-facebook-f" target="_blank"></a>
