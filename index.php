@@ -75,14 +75,14 @@
     </header>
     <!-- Home Section -->
     <section class="home" id="home">
-        <div class="image" data-aos="fade-right">
+        <div class="image" data-aos="fade-down">
             <img src="images/mimic4.jpg" alt="Gio Majadas">
         </div>
         <div class="content">
-            <h3 data-aos="fade-up">Hi, I am Gio Majadas</h3>
-            <span data-aos="fade-up">2nd Year BSIT-SD Student</span>
-            <p data-aos="fade-up">A 2nd Year BS Information Technology student striving an expertise and experiences in the field of IT</p>
-            <a data-aos="fade-up" href="#about" class="btn">See More</a>
+            <h3 data-aos="fade-down">Hi, I am Gio Majadas</h3>
+            <span data-aos="fade-down">2nd Year BSIT-SD Student</span>
+            <p data-aos="fade-down">A 2nd Year BS Information Technology student striving an expertise and experiences in the field of IT</p>
+            <a data-aos="fade-down" href="#about" class="btn">See More</a>
         </div>
     </section>
     <!-- About Section -->
