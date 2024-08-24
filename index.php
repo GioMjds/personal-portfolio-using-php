@@ -42,6 +42,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
+    <div class="changing-div"></div>
 <?php
     if (isset($messagePrompt)) {
         foreach ($messagePrompt as $message) {
