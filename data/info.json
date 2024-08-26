@@ -1,8 +1,9 @@
 {
     "about": {
-        "about-email": "giomjds@gmail.com",
-        "about-address": "Manila, Philippines",
-        "about-phone": "+63 920 212 9617",
+        "about-current-university": "Laguna University",
+        "about-zip-code": "4012",
+        "about-country": "Philippines",
+        "about-course": "BS in Information Technology",
         "about-age": "21 years old",
         "about-exp": "Student",
         "biography1": "Hello! I'm Gio Majadas, an IT student particularly interested in making innovations and pontifications about technology. I am currently finishing my degree in Bachelor of Science in Information Technology at Laguna University.",

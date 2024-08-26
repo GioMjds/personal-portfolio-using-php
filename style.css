@@ -298,11 +298,11 @@ section {
     font-size: 1.8rem;
 }
 
-.about .biography .bio {
+.about .biography .info-box {
     margin: 1rem 0;
 }
 
-.about .biography .bio h3 {
+.about .biography .info-box h3 {
     padding: 1rem 2rem;
     display: inline-block;
     margin: 1rem;
@@ -314,7 +314,7 @@ section {
     text-transform: none;
 }
 
-.about .biography .bio h3 span {
+.about .biography .info-box h3 span {
     font-weight: lighter;
 }
 
@@ -600,7 +600,7 @@ section {
     .heading span {
         font-size: 4rem;
     }
-    .about .biography .bio h3 {
+    .about .biography .info-box h3 {
         font-size: 2rem;
     }
     .contact form .flex .box {

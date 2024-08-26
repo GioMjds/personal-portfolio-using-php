@@ -94,14 +94,15 @@
             <p data-aos="fade-up"><?= $biography2 ?></p>
             <p data-aos="fade-up"><?= $biography3 ?></p>
             <p data-aos="fade-up"><?= $biography4 ?></p>
-            <div class="bio">
-                <h3 data-aos="zoom-in"> <span>Email: </span><?= $aboutEmail ?></h3>
-                <h3 data-aos="zoom-in"> <span>Address: </span><?= $aboutAddress ?></h3>
-                <h3 data-aos="zoom-in"> <span>Phone: </span><?= $aboutPhone ?></h3>
+            <div class="info-box">
                 <h3 data-aos="zoom-in"> <span>Age: </span><?= $aboutAge ?></h3>
+                <h3 data-aos="zoom-in"> <span>Country: </span><?= $aboutCountry ?></h3>
+                <h3 data-aos="zoom-in"> <span>Zip Code: </span><?= $aboutZipCode ?></h3>
+                <h3 data-aos="zoom-in"> <span>Course: </span><?= $aboutCourse ?></h3>
                 <h3 data-aos="zoom-in"> <span>Experience: </span><?= $aboutExp ?></h3>
+                <h3 data-aos="zoom-in"> <span>Current University: </span><?= $aboutCurrentUniversity ?></h3>
             </div>
-            <a href="data/Gio Majadas (Resume).pdf" class="btn" target="_blank" data-aos="fade-up">Download CV</a>
+            <a href="data/Gio Majadas (Resume).pdf" class="btn" target="_blank" data-aos="fade-up">Download Resume</a>
         </div>
         <div class="skills" data-aos="fade-up">
             <h1 class="heading"> <span>Skills</span> </h1>
