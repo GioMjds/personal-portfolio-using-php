@@ -3,7 +3,6 @@
 $json_info = file_get_contents('data/info.json');
 $info = json_decode($json_info, true);
 
-$aboutName = $info['about']['about-name'];
 $aboutEmail = $info['about']['about-email'];
 $aboutAddress = $info['about']['about-address'];
 $aboutPhone = $info['about']['about-phone'];

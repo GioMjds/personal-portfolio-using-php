@@ -95,7 +95,6 @@
             <p data-aos="fade-up"><?= $biography3 ?></p>
             <p data-aos="fade-up"><?= $biography4 ?></p>
             <div class="bio">
-                <h3 data-aos="zoom-in"> <span>Name: </span><?= $aboutName ?> <i class="fa-solid fa-mars"></i></h3>
                 <h3 data-aos="zoom-in"> <span>Email: </span><?= $aboutEmail ?></h3>
                 <h3 data-aos="zoom-in"> <span>Address: </span><?= $aboutAddress ?></h3>
                 <h3 data-aos="zoom-in"> <span>Phone: </span><?= $aboutPhone ?></h3>
