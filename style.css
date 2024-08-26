@@ -7,6 +7,7 @@
     --light-bg: #eee;
     --border-bold: 0.5rem solid var(--black);
     --border-light: 0.2rem solid var(--black);
+    --crimson: crimson;
 }
 
 * {
@@ -121,12 +122,20 @@ section {
     border: var(--border-light);
     border-radius: 12px;
     font-size: 2rem;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
     background-color: var(--black);
     color: var(--white);
+    box-shadow: 5px 5px 0px var(--yellow);
+}
+
+.btn:active {
+    background-color: var(--yellow);
+    box-shadow: none;
+    transform: translateY(4px);
 }
 
 .header {
