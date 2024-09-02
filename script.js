@@ -1,9 +1,10 @@
+const menu = document.querySelector("#menu-btn");
+const header = document.querySelector(".header");
+const message = document.querySelector('.message');
+
 window.onload = () => {
     window.location.href = "#home";
 }
-
-const menu = document.querySelector("#menu-btn");
-const header = document.querySelector(".header");
 
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
@@ -16,8 +17,6 @@ document.addEventListener('keydown', function(event) {
         menu.click();
     }
 });
-
-const message = document.querySelector('.message');
 
 if (message) {
     setTimeout(() => {
