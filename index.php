@@ -141,7 +141,7 @@
                 <p><?= $services[3]['description'] ?></p>
             </div>
             <div class="box" data-aos="zoom-in">
-                <i class="fas fa-bullhorn"></i>
+                <i class="fas fa-mobile"></i>
                 <h3><?= $services[4]['name'] ?></h3>
                 <p><?= $services[4]['description'] ?></p>
             </div>

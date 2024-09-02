@@ -39,7 +39,7 @@
         {"name": "UI/UX Designer", "description": "Crafting intuitive and visually stunning interfaces that simplify complex interactions and elevate brand identities."},
         {"name": "Git & GitHub", "description": "Streamlining development workflows and ensuring seamless collaboration through expert Git and GitHub management."},
         {"name": "Database Management", "description": "Designing, implementing, and optimizing high-performance databases that ensure data integrity, security, and scalability."},
-        {"name": "Digital Marketing", "description": "Developing and executing targeted digital marketing strategies that drive brand awareness, engagement, and conversions."},
+        {"name": "Mobile Development", "description": "I also create apps from scratch, using React Native, that deliver seamless user experiences on iOS and Android devices."},
         {"name": "Server-side Development", "description": "Designing and implementing robust, scalable, and secure server-side architectures that power fast and reliable web applications."}
     ],
     "contact": {
