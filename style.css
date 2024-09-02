@@ -53,28 +53,6 @@ body.active {
     padding-left: 35rem;
 }
 
-.changing-div {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 1em;
-    z-index: 20000;
-    background: var(--yellow);
-    transform-origin: 0 50%;
-    animation: grow-progress auto linear;
-    animation-timeline: scroll();
-}
-
-@keyframes grow-progress {
-    from {
-        transform: scaleX(0);
-    }
-    to {
-        transform: scaleX(1);
-    }
-}
-
 section {
     padding: 3rem 2rem;
     margin: 0 auto;
