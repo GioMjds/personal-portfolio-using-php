@@ -125,16 +125,16 @@ section {
 }
 
 .btn:hover {
-    background-color: var(--black);
-    color: var(--yellow);
-    box-shadow: 3px 4px 0px var(--yellow);
+    background-color: var(--yellow);
+    color: var(--white);
+    box-shadow: 3px 4px 0px var(--black);
 }
 
 .btn:active {
-    background-color: var(--yellow);
+    background-color: var(--black);
     color: var(--white);
     box-shadow: none;
-    box-shadow: 3px 4px 0px var(--black);
+    box-shadow: 3px 4px 0px var(--yellow);
     transform: translateY(4px);
 }
 
