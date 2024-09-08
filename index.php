@@ -7,6 +7,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
+
 <body>
-<?php
+    <?php
     if (isset($messagePrompt)) {
         foreach ($messagePrompt as $message) {
             echo '
@@ -58,7 +60,8 @@
         <div class="content">
             <h3 data-aos="fade-down">Hi, I am Gio Majadas</h3>
             <span data-aos="fade-down">2nd Year BSIT-SD Student</span>
-            <p data-aos="fade-down">A 2nd Year BS Information Technology student striving an expertise and experiences in the field of IT</p>
+            <p data-aos="fade-down">A 2nd Year BS Information Technology student striving an expertise and experiences
+                in the field of IT</p>
             <a data-aos="fade-down" href="#about" class="btn">See More</a>
         </div>
     </section>
@@ -84,9 +87,9 @@
             <h1 class="heading"> <span>Skills</span> </h1>
             <div class="progress">
                 <?php foreach ($skills as $skill) {?>
-                    <div class="bar" data-aos="fade-left">
-                        <h3><span> <?= $skill['name']?></span> <?= $skill['percentage'] ?>%</h3>
-                    </div>
+                <div class="bar" data-aos="fade-left">
+                    <h3><span> <?= $skill['name']?></span> <?= $skill['percentage'] ?>%</h3>
+                </div>
                 <?php }?>
             </div>
         </div>
@@ -96,21 +99,21 @@
                 <div class="box-container">
                     <h3 class="title" data-aos="fade-left">Education</h3>
                     <?php foreach($education as $edu) {?>
-                        <div class="box" data-aos="fade-left">
-                            <span><?= $edu['name_and_year'] ?></span>
-                            <h3><?= $edu['school'] ?></h3>
-                            <p><?= $edu['description'] ?></p>
-                        </div>
+                    <div class="box" data-aos="fade-left">
+                        <span><?= $edu['name_and_year'] ?></span>
+                        <h3><?= $edu['school'] ?></h3>
+                        <p><?= $edu['description'] ?></p>
+                    </div>
                     <?php }?>
                 </div>
                 <div class="box-container">
                     <h3 class="title" data-aos="fade-right">Experience</h3>
                     <?php foreach($experience as $exp) {?>
-                        <div class="box" data-aos="fade-right">
-                            <span><?= $exp['year'] ?></span>
-                            <h3><?= $exp['work'] ?></h3>
-                            <p><?= $exp['description'] ?></p>
-                        </div>
+                    <div class="box" data-aos="fade-right">
+                        <span><?= $exp['year'] ?></span>
+                        <h3><?= $exp['work'] ?></h3>
+                        <p><?= $exp['description'] ?></p>
+                    </div>
                     <?php }?>
                 </div>
             </div>
@@ -195,10 +198,13 @@
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <div class="flex">
                 <input data-aos="fade-right" type="text" name="name" placeholder="Enter Your Name" class="box" required>
-                <input data-aos="fade-left" type="email" name="email" placeholder="Enter Your Email" class="box" required>
+                <input data-aos="fade-left" type="email" name="email" placeholder="Enter Your Email" class="box"
+                    required>
             </div>
-            <input data-aos="fade-up" type="number" min="0" name="number" placeholder="Enter Your Number" class="box" required>
-            <textarea data-aos="fade-up" name="message" class="box" required placeholder="Enter Your Message" cols="30" rows="10"></textarea>
+            <input data-aos="fade-up" type="number" min="0" name="number" placeholder="Enter Your Number" class="box"
+                required>
+            <textarea data-aos="fade-up" name="message" class="box" required placeholder="Enter Your Message" cols="30"
+                rows="10"></textarea>
             <input type="submit" data-aos="zoom-in" value="Send Message" name="send" class="btn">
         </form>
         <div class="box-container">
@@ -224,10 +230,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <!-- AOS Script -->
     <script>
-        AOS.init({
-            duration: 800,
-            delay: 300
-        });
+    AOS.init({
+        duration: 800,
+        delay: 300
+    });
     </script>
 </body>
+
 </html>

@@ -326,37 +326,37 @@ section {
 
 .about .skills .progress .bar:nth-child(1) h3 {
     /* HTML skill bar */
-    width: 87%;
+    width: 69%;
 }
 
 .about .skills .progress .bar:nth-child(2) h3 {
     /* CSS skill bar */
-    width: 79%;
+    width: 67%;
 }
 
 .about .skills .progress .bar:nth-child(3) h3 {
     /* JavaScript skill bar */
-    width: 66%;
+    width: 53%;
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
     /* PHP skill bar */
-    width: 70%;
+    width: 48%;
 }
 
 .about .skills .progress .bar:nth-child(5) h3 {
     /* SQL skill bar */
-    width: 68%;
+    width: 43%;
 }
 
 .about .skills .progress .bar:nth-child(6) h3 {
     /* C skill bar */
-    width: 78%;
+    width: 69%;
 }
 
 .about .skills .progress .bar:nth-child(7) h3 {
     /* C++ skill bar */
-    width: 93%;
+    width: 74%;
 }
 
 .about .skills .progress .bar:nth-child(8) h3 {
@@ -366,12 +366,12 @@ section {
 
 .about .skills .progress .bar:nth-child(9) h3 {
     /* Visual Basic .NET skill bar */
-    width: 74%;
+    width: 45%;
 }
 
 .about .skills .progress .bar:nth-child(10) h3 {
     /* GitHub skill bar */
-    width: 76%;
+    width: 73%;
 }
 
 .about .edu-exp .row {
