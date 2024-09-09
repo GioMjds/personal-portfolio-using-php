@@ -100,6 +100,7 @@ section {
     border-radius: 12px;
     font-size: 2rem;
     box-shadow: 3px 4px 0px var(--black);
+    transition: background-color 0.4s ease-in-out;
 }
 
 .btn:hover {
@@ -340,36 +341,41 @@ section {
 }
 
 .about .skills .progress .bar:nth-child(4) h3 {
+    /* Python skill bar */
+    width: 58%;
+}
+
+.about .skills .progress .bar:nth-child(5) h3 {
     /* PHP skill bar */
     width: 48%;
 }
 
-.about .skills .progress .bar:nth-child(5) h3 {
+.about .skills .progress .bar:nth-child(6) h3 {
     /* SQL skill bar */
     width: 43%;
 }
 
-.about .skills .progress .bar:nth-child(6) h3 {
+.about .skills .progress .bar:nth-child(7) h3 {
     /* C skill bar */
     width: 69%;
 }
 
-.about .skills .progress .bar:nth-child(7) h3 {
+.about .skills .progress .bar:nth-child(8) h3 {
     /* C++ skill bar */
     width: 74%;
 }
 
-.about .skills .progress .bar:nth-child(8) h3 {
+.about .skills .progress .bar:nth-child(9) h3 {
     /* C# skill bar */
     width: 67%;
 }
 
-.about .skills .progress .bar:nth-child(9) h3 {
+.about .skills .progress .bar:nth-child(10) h3 {
     /* Visual Basic .NET skill bar */
     width: 45%;
 }
 
-.about .skills .progress .bar:nth-child(10) h3 {
+.about .skills .progress .bar:nth-child(11) h3 {
     /* GitHub skill bar */
     width: 73%;
 }
